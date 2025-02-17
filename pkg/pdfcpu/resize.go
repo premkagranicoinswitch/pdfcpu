@@ -22,13 +22,13 @@ import (
 	"math"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/matrix"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/log"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/color"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/matrix"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/model"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/types"
 )
 
 // ParseResizeConfig parses a Resize command string into an internal structure.

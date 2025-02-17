@@ -19,9 +19,9 @@ package api
 import (
 	"io"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/model"
 )
 
 // PDFInfo returns information about rs.

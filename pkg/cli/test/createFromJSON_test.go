@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/pdfcpu/pdfcpu/pkg/cli"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/cli"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/model"
 )
 
 /**************************************************************

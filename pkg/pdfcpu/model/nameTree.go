@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/log"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/types"
 )
 
 var errNameTreeDuplicateKey = errors.New("pdfcpu: name: duplicate key")

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/font"
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/font"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/log"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/types"
 )
 
 const (

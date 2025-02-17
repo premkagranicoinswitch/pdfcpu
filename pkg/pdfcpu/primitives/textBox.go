@@ -19,11 +19,11 @@ package primitives
 import (
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/format"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/color"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/format"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/model"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/types"
 )
 
 // TextBox represents a form text input field including a positioned label.

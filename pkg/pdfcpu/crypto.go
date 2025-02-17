@@ -35,10 +35,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/log"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/model"
+	"github.com/premkagranicoinswitch/pdfcpu/pkg/pdfcpu/types"
 
 	"golang.org/x/text/secure/precis"
 	"golang.org/x/text/unicode/norm"
