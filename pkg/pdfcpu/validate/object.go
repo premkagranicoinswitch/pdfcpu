@@ -223,12 +223,14 @@ func timeOfDateObject(xRefTable *model.XRefTable, o types.Object, sinceVersion m
 		return nil, nil
 	}
 
-	t, ok := types.DateTime(s, xRefTable.ValidationMode == model.ValidationRelaxed)
-	if !ok {
-		return nil, errors.Errorf("pdfcpu: validateDateObject: <%s> invalid date", s)
-	}
+	return nil, nil
 
-	return &t, nil
+	// t, ok := types.DateTime(s, xRefTable.ValidationMode == model.ValidationRelaxed)
+	// if !ok {
+	// 	return nil, errors.Errorf("pdfcpu: validateDateObject: <%s> invalid date", s)
+	// }
+
+	// return &t, nil
 }
 
 func validateDateObject(xRefTable *model.XRefTable, o types.Object, sinceVersion model.Version) (string, error) {
@@ -241,12 +243,14 @@ func validateDateObject(xRefTable *model.XRefTable, o types.Object, sinceVersion
 		return s, nil
 	}
 
-	t, ok := types.DateTime(s, xRefTable.ValidationMode == model.ValidationRelaxed)
-	if !ok {
-		return "", errors.Errorf("pdfcpu: validateDateObject: <%s> invalid date", s)
-	}
+	return s, nil
 
-	return types.DateString(t), nil
+	// t, ok := types.DateTime(s, xRefTable.ValidationMode == model.ValidationRelaxed)
+	// if !ok {
+	// 	return "", errors.Errorf("pdfcpu: validateDateObject: <%s> invalid date", s)
+	// }
+
+	// return types.DateString(t), nil
 }
 
 func validateDateEntry(xRefTable *model.XRefTable, d types.Dict, dictName, entryName string, required bool, sinceVersion model.Version) (*time.Time, error) {
